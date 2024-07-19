@@ -11,11 +11,11 @@ function App() {
     <>
       {/* 1st demo color changer */}
 
-        {/* <Color/> */}
+        <Color/>
         
       {/* 2nd create a card  */}
         
-        {/* <div className="container-fluid">
+        <div className="container-fluid">
           <div className="row">
             <Card img={Card_data[0].img} name={Card_data[0].name} desc={Card_data[0].desc} btn={Card_data[0].btn} />
             <Card img={Card_data[1].img} name={Card_data[1].name} desc={Card_data[1].desc} btn={Card_data[1].btn} />
@@ -26,11 +26,11 @@ function App() {
             <Card img={Card_data[6].img} name={Card_data[6].name} desc={Card_data[5].desc} btn={Card_data[5].btn} />
             <Card img={Card_data[7].img} name={Card_data[7].name} desc={Card_data[5].desc} btn={Card_data[5].btn} />
           </div>  
-        </div> */}
+        </div>
       
     {/* 3rd Demo Live Time */}
 
-        {/* <Time/> */}
+        <Time/>
 
     
     {/* 4th Demo Password Generator */}

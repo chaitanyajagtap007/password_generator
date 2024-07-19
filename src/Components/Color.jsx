@@ -5,7 +5,7 @@ export default function Color() {
     let [color, setColor] = useState("pink");
     return (
         <>
-            <div className="container-fulid " style={{ backgroundColor: color, height: '700px' }}>
+            <div className="container-fulid " style={{ backgroundColor: color, height: '300px' }}>
                 <nav class="navbar navbar-expand-lg navbar-light bg-dark">
                     <div className="col-1 mt-2">
                         <div onClick={() => setColor('red')} className="btn text-white" style={{ backgroundColor: 'red'}} >red</div>
